@@ -3,6 +3,8 @@ import Colors from "@constants/Colors";
 import { UButton, USafeAreaProvider } from "@u";
 import { router } from "expo-router";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
+import "react-native-get-random-values";
+import "./globals";
 
 export default function HomeScreen() {
 	return (
